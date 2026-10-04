@@ -55,7 +55,7 @@ LANGUAGE       = 'en'
 
 MAX_DEVICES     = 5
 MAX_THREADS     = 5
-LOGIN_RETRIES   = 3
+LOGIN_RETRIES   = 5
 PROXY_PROTOCOL  = "socks5"   # "socks5" or "http"
 ROTATE_PER_KICK = False      # True → new proxy each kick, False → sticky per device
 
