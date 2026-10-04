@@ -1,1 +1,14 @@
+# Railway builds with Nixpacks. Pin Python 3.13 and the exact
+# pip install step so python-telegram-bot 21.x lands, not 20.x.
 
+[phases.setup]
+nixPkgs = ["python313", "gcc"]
+
+[phases.install]
+cmds = [
+  "python3 -m pip install --upgrade pip",
+  "python3 -m pip install -r requirements.txt"
+]
+
+[start]
+cmd = "python3 bot.py"
