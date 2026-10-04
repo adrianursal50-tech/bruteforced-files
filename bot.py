@@ -38,7 +38,7 @@ from telegram.request import HTTPXRequest
 # ────────────────────────────────────────────────────────────────
 # CONFIG
 # ────────────────────────────────────────────────────────────────
-BOT_TOKEN   = os.environ.get("BOT_TOKEN", "8857859353:AAEnkQ_uyH9SUH--Ei-bl-zoCtujMIswxDY")
+BOT_TOKEN   = os.environ.get("BOT_TOKEN", "8857859353:AAFtJAEggihro0h5917MmiY6o1Mr9WDYLmY")
 ADMIN_ID    = int(os.environ.get("ADMIN_ID", "8621676055"))
 BOT_NAME    = "Premium DevID Seker · BF"
 BOT_VERSION = "8.3"
